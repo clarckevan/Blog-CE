@@ -9,6 +9,81 @@
     font-family: Arial, sans-serif;
   }
   header{
-      width: 100%;
-      height: 80px;
+    width: 100%;
+    height: 80px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+nav .onglet ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+ul li a {
+ margin: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+  a:hover {
+   background-position: 0;
+   background-color:beige ;
   }
+  
+   a:hover::before {
+    width:100%;
+  } 
+ ul li a:hover{ 
+    color: red;
+    background-color:white ;
+} 
+.logo{
+    display: flex;
+  position: relative;
+  color: white;
+}
+
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .copyright {
+ color: black;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ margin-top: 300Px;
+ 
+}
+
+footer .tel {
+    color: black;
+    margin-top: 100px;
+     margin-right: -800px;
+}
+
+.reseauxS  img{
+    width: 30px;
+    height: 20px;
+    margin-top: 320px;
+
+}
